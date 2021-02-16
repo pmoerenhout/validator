@@ -35,6 +35,18 @@ public class Iso7064Test extends TestCase {
     Assert.assertTrue(iso7064.isValid(reformatIban("CR0515202001026284066")));
     Assert.assertTrue(iso7064.isValid(reformatIban("HR1210010051863000160")));
     Assert.assertTrue(iso7064.isValid(reformatIban("CY17002001280000001200527600")));
+    Assert.assertTrue(iso7064.isValid(reformatIban("CZ6508000000192000145399")));
+    Assert.assertTrue(iso7064.isValid(reformatIban("DK5000400440116243")));
+    Assert.assertTrue(iso7064.isValid(reformatIban("DK5000400440116243")));
+    Assert.assertTrue(iso7064.isValid(reformatIban("FO6264600001631634")));
+    Assert.assertTrue(iso7064.isValid(reformatIban("GL8964710001000206")));
+    Assert.assertTrue(iso7064.isValid(reformatIban("DO28BAGR00000001212453611324")));
+    Assert.assertTrue(iso7064.isValid(reformatIban("EE382200221020145685")));
+    Assert.assertTrue(iso7064.isValid(reformatIban("FI2112345600000785")));
+    Assert.assertTrue(iso7064.isValid(reformatIban("FI5542345670000081")));
+    Assert.assertTrue(iso7064.isValid(reformatIban("FR1420041010050500013M02606")));
+    Assert.assertTrue(iso7064.isValid(reformatIban("GE29NB0000000101904917")));
+    Assert.assertTrue(iso7064.isValid(reformatIban("DE89370400440532013000")));
   }
 
   private String reformatIban(final String iban){

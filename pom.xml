@@ -39,10 +39,17 @@
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
 
-    <junit.version>4.13</junit.version>
+    <junit.version>4.13.2</junit.version>
   </properties>
 
   <dependencies>
+
+    <dependency>
+      <groupId>commons-logging</groupId>
+      <artifactId>commons-logging</artifactId>
+      <version>1.2</version>
+      <scope>test</scope>
+    </dependency>
 
     <!-- Test dependencies -->
     <dependency>
